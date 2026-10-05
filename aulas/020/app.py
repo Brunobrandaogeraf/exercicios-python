@@ -9,3 +9,8 @@
 # sort = ordenar a ista em ordem crescente 
 # reverse = inverte a ordem dos itens a lista
 # copy =copia a lista
+
+numeros = [7, 5, 8, 2 , 2, 0]
+numeros2 =numeros.copy()
+numeros.append(1)
+print(numeros2)
